@@ -37,8 +37,10 @@ This package comes with an example of the legacy library mentioned above, except
 
 It comes with a standard makefile, a simple
 
+~~~~
 $ make
 $ ./raii_example
+~~~~
 
 should run the main function found in tests.cpp. Note the two functions, non_raii() to give an example of how the legacy classes work on their own, and then raii() to do the same thing with constructors and destructors.
 
